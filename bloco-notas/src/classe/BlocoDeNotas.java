@@ -32,6 +32,7 @@ public class BlocoDeNotas {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setTitle("Notes by NixCodeDev");
 
+        /*Área de texto*/
         textArea = new JTextArea();
         JScrollPane scrollPane = new JScrollPane(textArea);
         scrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
